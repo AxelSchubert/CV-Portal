@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 class="title">Axel Schuberts CV</h1>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
+        ☰
+    </label>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-item nav-left">Start</a></li>
+                <li><a href="om_mig.html" class="nav-item">Om mig</a></li>
+                <li><a href="cv.html" class="nav-item">CV</a></li>
+                <li><a href="portfolio.html" class="nav-item current">Portfolio</a></li>
+                <li><a href="kontakt.html" class="nav-item nav-right">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3 class="subtitle">Mina projekt</h3>
+        <div class="container">
+            <div id="modal" class="item-db">
+                <p>Skolsystem</p>
+                <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex perspiciatis error sapiente distinctio repudiandae necessitatibus veniam laudantium at tenetur recusandae illo ea atque quam, assumenda praesentium, enim ipsa? Hic, ratione.</p>
+                <a href="#popup">Läs mer</a>
+            </div>
+            <div class="item-bankapp">
+                <p>Bankapp</p>
+                <p class="portfolio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet provident voluptatem repellat a dolorem at laboriosam tempora natus ex.</p>
+            </div>
+            <div class="item-net">
+                <p>Schackbräda</p>
+                <p class="portfolio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere esse eum perspiciatis, repellat similique ut voluptas!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="footer-text">Email: axel.e.schubert@gmail.com<br>Tlf: 123 456 789<br>Adress: xxxgatan 123</p>
+        <p class="footer-copyright">© 2025 Axel Schubert</p>
+    </footer>
+    <article id="popup">
+        <div>
+            <p>Det här är ett skolprojekt jag gjorde där jag skulle skapa ett skolsystem för att hantera elever, lärare, kurser och betyg åt en fiktiv skola. Jag använde SQL, EF och .NET</p>
+            <a href="#modal">Stäng rutan</a>
+        </div>
+    </article>
+</body>
+
+</html>
